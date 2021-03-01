@@ -1,0 +1,81 @@
+/* CSS per a l'exercici de Transicions i animacions */
+/* Ermengol Bota */
+header,
+footer {
+    background-color: greenyellow;
+    overflow: hidden;
+    /* els elements flotants també estaran  dins de header */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+    float: left;
+    height: auto;
+    margin: 5px;
+    width: 80px;
+
+}
+
+.copyright {
+    font-size: 0.7rem;
+    text-align: center
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 0;
+
+}
+
+.subtitle {
+    float: left;
+    margin-top: 0;
+}
+
+
+/* Menu en hortizontal */
+.menuitem {
+    display: inline-block;
+    margin: 5px;
+}
+
+.menulink {
+    text-decoration: none;
+}
+
+.menulink:hover {
+    color: white;
+}
+
+
+/* Targetes */
+.targeta {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: sans-serif;
+    width: 200px;
+    display: inline-block;
+    margin: 10px 10px;
+    box-shadow: 4px 6px 5px 0 rgba(0, 0, 0, 0.75);
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+
+.targeta:hover p {
+    background-color: rgba(200, 200, 200, 0.8);
+
+}
+
+.targeta p {
+    position: absolute;
+    bottom: 1px;
+    padding: 15px 20px;
+    font-size: 2rem;
+}
